@@ -1,0 +1,87 @@
+
+#main-container {
+    background: maroon;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.contact-us {
+    background-color: yellowgreen;
+    border-radius: 5%;
+}
+
+#top-banner {
+    background: url("../images/banner.jpg") fixed;
+    padding: 10rem;
+    margin-top: 3rem;
+    color: white;
+}
+
+.food-type {
+    border-radius: 50%;
+    border: 0.1rem solid red;
+}
+
+.content-section {
+    border-bottom: 0.01rem solid dimgray;
+    margin-top: 4%;
+}
+
+.section-title {
+    color: yellow;
+}
+
+.content-section p {
+    color: antiquewhite;
+    font-family: Bad Script;
+    font-size: 1.5rem;
+}
+
+.content-section h1 {
+    font-family: Great Vibes;
+    color: lightcyan;
+    font-size: 8vw;
+}
+
+.content-section h2 {
+    font-family: Calligraffitti;
+}
+
+.card {
+    width:18rem;
+    margin:2%;
+    border: 0px;
+    background: maroon;
+}
+
+.card-text {
+    color: antiquewhite;
+}
+
+#menu {
+    padding-bottom: 2%;
+}
+
+#page-footer {
+    color:white;
+    background-color:gray;
+    text-align: center;
+}
+
+@media (min-width: 575px) {
+    .call-us-row {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    #top-banner .p-2 {
+        visibility: hidden;
+    }
+    #call-us .contact-us {
+        border-radius: 0;
+    }
+}
+
