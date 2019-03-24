@@ -14,9 +14,10 @@
 
 #top-banner {
     background: url("../images/banner.jpg") fixed;
-    padding: 10rem;
+    padding: 8rem;
     margin-top: 3rem;
     color: white;
+    background-position:center;
 }
 
 .food-type {
